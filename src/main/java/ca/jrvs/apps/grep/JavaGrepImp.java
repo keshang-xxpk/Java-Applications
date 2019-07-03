@@ -31,6 +31,7 @@ public class JavaGrepImp implements JavaGrep{
                 fl.addAll(listFiles(f.getAbsolutePath()));
             } else fl.add(f);
         }
+        return fl;
     }
 
     @Override

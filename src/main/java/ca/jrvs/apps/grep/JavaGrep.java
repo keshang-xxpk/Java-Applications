@@ -8,6 +8,7 @@ import java.util.List;
 public interface JavaGrep {
     /**
      * Top level search workflow
+     *
      * @throws IOException
      */
     void process() throws IOException;
@@ -15,11 +16,11 @@ public interface JavaGrep {
 
     /**
      * Traverse a given directory and return all files
+     *
      * @param rootDir input directory
      * @return files under the rootDir
      */
     List<File> listFiles(String rootDir);
-
 
 
     /*** Read a file and return all the lines
@@ -33,9 +34,9 @@ public interface JavaGrep {
     List<String> readLines(File inputFile);
 
 
-
     /**
      * check if a line contains the regex pattern(passed by user)
+     *
      * @param line input string
      * @return true if there is a match
      */
@@ -44,7 +45,7 @@ public interface JavaGrep {
 
     /**
      * Write lines to a file
-     *
+     * <p>
      * Explore: FileOutputStream, OutputStreamWriter,and BufferedWriter
      *
      * @param lines matched line
@@ -63,3 +64,4 @@ public interface JavaGrep {
     String getOutFile();
 
     void setOutFile(String outFile);
+}
