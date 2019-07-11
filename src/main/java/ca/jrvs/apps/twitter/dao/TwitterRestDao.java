@@ -9,12 +9,13 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.stereotype.Repository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
-//@Repository
+@Repository
 public class TwitterRestDao implements CrdDao<Tweet, String> {
 
     //URI constants
@@ -32,7 +33,7 @@ public class TwitterRestDao implements CrdDao<Tweet, String> {
 
     private HttpHelper httpHelper;
 
-   // @Autowired
+   @Autowired
     public TwitterRestDao(HttpHelper httpHelper) {
         this.httpHelper = httpHelper;
     }

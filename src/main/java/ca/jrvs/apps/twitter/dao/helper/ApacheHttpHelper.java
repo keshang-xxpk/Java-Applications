@@ -3,6 +3,7 @@ package ca.jrvs.apps.twitter.dao.helper;
 import ca.jrvs.apps.twitter.util.StringUtil;
 import java.io.IOException;
 import java.net.URI;
+
 import oauth.signpost.OAuthConsumer;
 import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer;
 import oauth.signpost.exception.OAuthException;
@@ -59,8 +60,7 @@ public class ApacheHttpHelper implements HttpHelper {
 
     public ApacheHttpHelper(String consumerKey, String consumerSecret, String accessToken,
                             String tokenSecret) {
-        consumer = new CommonsHttpOAuthConsumer(consumerKey,
-                consumerSecret);
+        consumer = new CommonsHttpOAuthConsumer(consumerKey, consumerSecret);
         consumer.setTokenWithSecret(accessToken, tokenSecret);
         /**
          * Default = single connection. Discuss source code if time permit

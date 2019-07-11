@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.spring;
+package ca.jrvs.apps.spring;
 
 public class TwitterCLIComponentScan {
 }

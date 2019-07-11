@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.example;
+package ca.jrvs.apps.example;
 
 public class JsonParser {
 }

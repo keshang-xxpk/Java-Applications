@@ -3,6 +3,7 @@ package ca.jrvs.apps.twitter.dao.helper;
 import ca.jrvs.apps.twitter.util.StringUtil;
 import java.io.IOException;
 import java.net.URI;
+
 import oauth.signpost.OAuthConsumer;
 import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer;
 import oauth.signpost.exception.OAuthException;

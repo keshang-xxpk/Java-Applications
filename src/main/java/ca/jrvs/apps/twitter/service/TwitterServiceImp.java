@@ -20,15 +20,15 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Predicate;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-//@Service
+@Service
 public class TwitterServiceImp implements TwitterService {
 
     private CrdDao dao;
 
-    //@Autowired
+    @Autowired
     public TwitterServiceImp(CrdDao dao) {
         this.dao = dao;
     }
