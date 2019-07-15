@@ -12,6 +12,11 @@
   ## Enhancements and Issues
   
   # Java JDBC App
-  # Twitter
-  ~~please delete me~~
-  
+  # Twitte
+  ```dtd
+  st=>start:start:>www.google.ca
+  op1=>operation:my choose
+  c=>condition:yes or no?
+  e=>end:end
+
+```
