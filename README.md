@@ -1,5 +1,5 @@
- # Java apps
- * Java apps contains three applications:
+ # Summary
+ * this Java apps contains three independent applications
  >GREP
  
  >JDBC
@@ -74,9 +74,11 @@ writeToFile(matchedLines)</code></pre>
   
   ## Twitte
   ### Introduction 
-  - Implement a simple grep app in Java. The app searches for a text pattern recursively in a given directory, and output matched lines to a file. 
+  - this java application interacts with the Twitter API in order to view tweets ,and allow user to do the simple CRUD operations with the user's account. 
   ### Usage
-  - Three arguments:regex,rootpath,outfile.
+  - Get
+  >Look up a tweet by ID and print the tweet object in JSON file.
+  >show user specified 
   >regex - a special text string for describing a search pattern
   >rootPath - root directory path
   >outFile - output file name
