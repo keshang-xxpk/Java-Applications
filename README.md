@@ -6,8 +6,8 @@
  
  >Twitter
 
- ##Java Grep App
-  ###Introduction 
+ ## Java Grep App
+  ### Introduction 
   - Implement a simple grep app in Java. The app searches for a text pattern recursively in a given directory, and output matched lines to a file. 
   ### Usage
   - Three arguments:regex,rootpath,outfile.
