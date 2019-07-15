@@ -37,7 +37,7 @@ writeToFile(matchedLines)</code></pre>
   
 
   ### Enhancements and Issues
-  Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
+  >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
   
   ## Java JDBC App
   ## Twitte
