@@ -1,5 +1,5 @@
  # Java apps
- Java apps contains three applications:
+ * Java apps contains three applications:
  >GREP
  
  >JDBC
