@@ -19,9 +19,8 @@
  #### Post
  -Discription:
   <pre>Create a tweet with geo-location data and output the created tweet object(simplified) in JSON format.</pre>
-  -Syntax:
- <pre><code>**TwitterCLI show <tweet_id> [field1,field2]** **tweet_id** is the tweet id,same as the **idStr** arribute
- [field1, field2] (Optional) comma-separated list of top-level fields from the tweet object (similar to the SELECT clause in SQL).</pre></code>
+  -Tip:
+ <pre><code> **tweet_text** cannot exceed 140 Unicode-encoded(UTF-8) characters</pre></code>
  #### Delete
  -Discription:
   <pre>Look up a tweet by ID and print the tweet object inJSON format.Show user specified [fields] in the JSON document.Show user specified [fields] in the JSON document.</pre>
