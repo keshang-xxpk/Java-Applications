@@ -4,10 +4,10 @@
  1.[Twitter](#Twitter)
  
  
- 2.[Java Grep App](#Java Grep App)
+ 2.[Grep](#Grep)
  
  
- 3.[Java JDBC App](#Java JDBC App)
+ 3.[JDBC](#JDBC)
  
    ## Twitter
   ### Introduction 
@@ -47,7 +47,7 @@ writeToFile(matchedLines)</code></pre>
   ### Enhancements and Issues
   >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
 
- ## Java Grep App
+ ## Grep
   ### Introduction 
   - Implement a simple grep app in Java. The app searches for a text pattern recursively in a given directory, and output matched lines to a file. 
   ### Usage
@@ -80,7 +80,7 @@ writeToFile(matchedLines)</code></pre>
   ### Enhancements and Issues
   >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
   
-  ## Java JDBC App
+  ## JDBC
   ### Introduction 
   - Implement a simple grep app in Java. The app searches for a text pattern recursively in a given directory, and output matched lines to a file. 
   ### Usage
