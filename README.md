@@ -1,11 +1,9 @@
  # Summary
- -this Java apps contains three independent applications
+ This Java apps contains three independent applications
  
- *[Twitter](#Twitter)
- 
- >Grep
- 
- >JDBC
+ 1.[Twitter](#Twitter)
+ 2.[Grep](#Grep)
+ 3.[JDBC](#JDBC)
  
    ## Twitter
   ### Introduction 
