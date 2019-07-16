@@ -5,7 +5,7 @@
  
  &ensp<br>1.1 [Introduction](#Introduction)</br>
  <br>1.2 [Usage](#Usage)</br>
- <br>1.3[Pseudo code and workflow](#Pseudo code and workflow)</br>
+ <br>1.3[workflow](#workflow)</br>
  
      
  
@@ -37,7 +37,7 @@
  <pre><code>TwitterCLI delete **tweet_ids>** </pre></code>
   ### Design and Implementation
  
-  - Pseudo code and workflow
+  - workflow
   <pre><code> 
 matchedLines = []
 for file in listFiles(rootDir)
