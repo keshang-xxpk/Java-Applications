@@ -4,10 +4,10 @@
  1.[Twitter](#Twitter)
  
  
- 2.[Grep](#Grep)
+ 2.[Grep](#Java Grep App)
  
  
- 3.[JDBC](#JDBC)
+ 3.[JDBC](#Java JDBC App)
  
    ## Twitter
   ### Introduction 
