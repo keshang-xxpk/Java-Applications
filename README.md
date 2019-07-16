@@ -3,14 +3,8 @@
  
  1 [Twitter](#Twitter)
    <br> 1.1 [Introduction](#Introduction)</br><br>  1.2 [Usage](#Usage)</br><br>  1.3[workflow](#workflow)</br>
- 
-     
- 
- 
- 2.[Grep](#Grep)
- 
- 
- 3.[JDBC](#JDBC)
+ 2.[Grep](#Grep)2.1 [Introduction](#Introduction)</br><br>  2.2 [Usage](#Usage)</br><br>  2.3[workflow](#workflow)</br>
+ 3.[JDBC](#JDBC)3.1 [Introduction](#Introduction)</br><br>  3.2 [Usage](#Usage)</br><br>  3.3[workflow](#workflow)</br>
  
    ## Twitter
   ### Introduction 
