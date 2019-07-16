@@ -1,10 +1,10 @@
  # Summary
  * this Java apps contains three independent applications
- >GREP
+ >Twitter
+ 
+ >Grep
  
  >JDBC
- 
- >Twitter
  
    ## Twitter
   ### Introduction 
