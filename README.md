@@ -5,9 +5,15 @@
  1.1 Introduction  
  1.2Usage  
  1.3workflow  
- 2.[Grep](#Grep)
-   2.1 Introduction2.2 Usage2.3workflow    
- 3.[JDBC](#JDBC)3.1 Introduction3.2 Usage3.3Design and Implementation3.4Enhancements and Issues
+ 2.[Grep](#Grep)  
+ 2.1 Introduction   
+ 2.2 Usage   
+ 2.3workflow    
+ 3.[JDBC](#JDBC)   
+ 3.1 Introduction    
+ 3.2 Usage    
+ 3.3Design and Implementation     
+ 3.4Enhancements and Issues
  
    ## Twitter
   ### Introduction 
