@@ -1,18 +1,18 @@
  # Summary
  ### This Java apps contains three independent applications
  
- 1.[Twitter](#Twitter)  
- &ensp; 1.1 [Introduction](#Introdection)  
- &ensp; 1.2[Usage](#Usage)  
- &ensp;1.3[Workflow](#Workflow)  
- 2.[Grep](#Grep)  
- &ensp;2.1 [Introduction](#Introdection)   
- &ensp;2.2 [Usage](#Usage)   
- &ensp;2.3[workflow](#Workflow)   
- 3.[JDBC](#JDBC)   
- &ensp;3.1 [Introduction](#Introdection)    
- &ensp;3.2 [Usage](#Usage)    
- &ensp;3.3[Design and Implementation](#Design and Implementation)     
+ [Twitter](#Twitter)  
+ &ensp; [Introduction](#Introdection)  
+ &ensp; [Usage](#Usage)  
+ &ensp;[Workflow](#Workflow)  
+ [Grep](#Grep)  
+ &ensp;[Introduction](#Introdection)   
+ &ensp;[Usage](#Usage)   
+ &ensp;[workflow](#Workflow)   
+ [JDBC](#JDBC)   
+ &ensp;[Introduction](#Introdection)    
+ &ensp;[Usage](#Usage)    
+ &ensp;[Design and Implementation](#Design and Implementation)     
  
    ## Twitter
   ### Introduction 
