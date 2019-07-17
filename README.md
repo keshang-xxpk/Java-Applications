@@ -1,5 +1,5 @@
  # Summary
- This Java apps contains three independent applications
+ ### This Java apps contains three independent applications
  
  1.[Twitter](#Twitter)  
  &ensp; 1.1 [Introduction](#Introdection)  
@@ -13,7 +13,6 @@
  &ensp;3.1 [Introduction](#Introdection)    
  &ensp;3.2 [Usage](#Usage)    
  &ensp;3.3[Design and Implementation](#Design and Implementation)     
- &ensp;3.4[Enhancements and Issues](#Enhancements and Issues)
  
    ## Twitter
   ### Introduction 
