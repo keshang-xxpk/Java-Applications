@@ -52,14 +52,7 @@ mermaid
   ### Design and Implementation
  
   - workflow
-  <pre><code> 
-matchedLines = []
-for file in listFiles(rootDir)
-  for line in readLines(file)
-      if containsPattern(line)
-        matchedLines.add(line)
-writeToFile(matchedLines)</code></pre>
-  
+  https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/Twitter_image.png    
   - Libraries
   >Using bufferReader and bufferWriter to dual with the input data.Also try to use Lambda and Stream API to process the input data stream.
   
