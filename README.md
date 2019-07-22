@@ -8,7 +8,8 @@
  [Grep](#2.Grep)  
  &ensp;&ensp;[2.1Introduction](#2.1Introdection)   
  &ensp;&ensp;[2.2Usage](#2.2Usage)   
- &ensp;&ensp;[2.3workflow](#2.3Workflow)   
+ &ensp;&ensp;[2.3workflow](#2.3Workflow) 
+ &ensp;&ensp;[2.4Enhancements and Issues](#2.4Enhancements and Issues)
  [JDBC](#3.JDBC)   
  &ensp;&ensp;[3.1Introduction](#3.1Introdection)    
  &ensp;&ensp;[3.2Usage](#3.2Usage)    
@@ -36,7 +37,7 @@
  <pre><code>TwitterCLI delete **tweet_ids>** </pre></code>
   ### Design and Implementation
  
-  ## 1.3workflow
+  ### 1.3workflow
   https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/Twitter_image.png    
  .
   
@@ -78,7 +79,7 @@ writeToFile(matchedLines)</code></pre>
   
   ## 3.JDBC
   ### 3.1Introduction 
-  - Implement a simple grep app in Java. The app searches for a text pattern recursively in a given directory, and output matched lines to a file. 
+  - The JDBC app uses the Java Database Connectivity API to connect and send SQL queries to a Postgresql database. The database models a sales business. The app can create a new customer, delete a customer, update information of a customer, find customer information, and get order information
   ### 3.2Usage
   - Three arguments:regex,rootpath,outfile.
   >regex - a special text string for describing a search pattern
@@ -111,10 +112,4 @@ writeToFile(matchedLines)</code></pre>
   
 
   
-  ```dtd
-  st=>start:start:>www.google.ca
-  op1=>operation:my choose
-  c=>condition:yes or no?
-  e=>end:end
-
-```
+ 
