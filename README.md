@@ -13,7 +13,7 @@
  [JDBC](#3.JDBC)   
  &ensp;&ensp;[3.1Introduction](#3.1Introdection)    
  &ensp;&ensp;[3.2Usage](#3.2Usage)    
- &ensp;&ensp;[3.3Design and Implementation](#3.3Design and Implementation)     
+ &ensp;&ensp;[3.3Implementation](#3.3Implementation)     
  
    ## 1.Twitter
   ### 1.1Introduction 
@@ -74,7 +74,7 @@ writeToFile(matchedLines)</code></pre>
   >Using bufferReader and bufferWriter to dual with the input data.Also try to use Lambda and Stream API to process the input data stream.
   
 
-  ### Enhancements and Issues
+  ### Enhancements
   >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
   
   ## 3.JDBC
@@ -87,18 +87,14 @@ writeToFile(matchedLines)</code></pre>
   - query_keyword - { select | insert | update | delete }
   - query_arguments - row id and record arguments in order
 
-  ### 3.3Design and Implementation
+  ### 3.3Implementation
  
   
   
  
   
 
-  ### Enhancements and Issues
-  >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
- - Need to do preparestatement in each DAO
- - Usage is limited
-  
+ 
 
   
  
