@@ -81,34 +81,23 @@ writeToFile(matchedLines)</code></pre>
   ### 3.1Introduction 
   - The JDBC app uses the Java Database Connectivity API to connect and send SQL queries to a Postgresql database. The database models a sales business. The app can create a new customer, delete a customer, update information of a customer, find customer information, and get order information
   ### 3.2Usage
-  - Three arguments:regex,rootpath,outfile.
-  >regex - a special text string for describing a search pattern
-  >rootPath - root directory path
-  >outFile - output file name
-  
-  - usage examples
-  > note: regex must match entire line.
-.*data.* ~/dev/jrvs/bootcamp/linux_sql /tmp/grep.out
->
->It searches all files in ~/dev/jrvs/bootcamp/linux_sql directory, and output lines contain data keyword to the output file
- /tmp/grep.out
+  #### Three arguments:tablename,query_arguments,tablename.
+  <pre>USAGE: tablename query_keyword query_arguments</pre>
+  - Tablename - a specific table in the database { customer | order | salesperson | product }
+  - query_keyword - { select | insert | update | delete }
+  - query_arguments - row id and record arguments in order
+
   ### 3.3Design and Implementation
  
-  - Pseudo code and workflow
-  <pre><code> 
-matchedLines = []
-for file in listFiles(rootDir)
-  for line in readLines(file)
-      if containsPattern(line)
-        matchedLines.add(line)
-writeToFile(matchedLines)</code></pre>
   
-  - Libraries
-  >Using bufferReader and bufferWriter to dual with the input data.Also try to use Lambda and Stream API to process the input data stream.
+  
+ 
   
 
   ### Enhancements and Issues
   >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
+ - Need to do preparestatement in each DAO
+ - Usage is limited
   
 
   
