@@ -90,7 +90,11 @@ writeToFile(matchedLines)</code></pre>
   - query_arguments - row id and record arguments in order
 
   ### Implementation
- https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/JDBC.png
+ - https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/JDBC.png
+ 
+ - The database hplussport consists of five tables: customer, salesperson, product, orders, and order_item. The table customer stores first name, last name, email address, phone number, address, city, zipcode, and an unique id for each customer. The table salesperson stores the same information as the customer table for each salesperson. The product table stores a code, a name, a size, a variety, a price, and a status. Each product is identified by a unique id. The table orders contains the following information for an order: a unique id, a creation date, a total price, a status, a customer id, and a salesperson id. The table order_item stores the product information for an order. More specifically it stores order_id, product_it, quantity, and a unique id.
+
+
   
   
  
