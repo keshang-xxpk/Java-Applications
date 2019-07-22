@@ -92,8 +92,7 @@ writeToFile(matchedLines)</code></pre>
   ### Implementation
  - https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/JDBC.png
  
- - The database hplussport consists of five tables: customer, salesperson, product, orders, and order_item. The table customer stores first name, last name, email address, phone number, address, city, zipcode, and an unique id for each customer. The table salesperson stores the same information as the customer table for each salesperson. The product table stores a code, a name, a size, a variety, a price, and a status. Each product is identified by a unique id. The table orders contains the following information for an order: a unique id, a creation date, a total price, a status, a customer id, and a salesperson id. The table order_item stores the product information for an order. More specifically it stores order_id, product_it, quantity, and a unique id.
-
+ - The implementation of this app uses the Data Access Object (DAO) pattern to send SQL queries and process their results. The DAO pattern is used to separate low-level database access operations from high-level business operations. The DataTransferObject interface ensures that a data transfer object like customer and order have a method that returns their id. The abstract class DataAccessObject is a parameterized class where the parameter has to implement the DataTransferObject interface. It provides method signatures for create, read, update, and delete (CRUD) operations. The classes CustomerDAO and OrderDAO extend the DataAccessObject class. They contain the specific SQL queries for the CRUD operations for customer and order data.
 
   
   
