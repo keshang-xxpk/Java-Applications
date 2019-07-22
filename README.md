@@ -9,7 +9,7 @@
  &ensp;&ensp;[2.1Introduction](#2.1Introdection)   
  &ensp;&ensp;[2.2Usage](#2.2Usage)   
  &ensp;&ensp;[2.3workflow](#2.3Workflow) 
- &ensp;&ensp;[2.4Enhancements and Issues](#2.4Enhancements and Issues)
+ &ensp;&ensp;[2.4Enhancements](#2.4Enhancements)
  [JDBC](#3.JDBC)   
  &ensp;&ensp;[3.1Introduction](#3.1Introdection)    
  &ensp;&ensp;[3.2Usage](#3.2Usage)    
