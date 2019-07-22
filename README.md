@@ -51,14 +51,12 @@ mermaid
  <pre><code>TwitterCLI delete **tweet_ids>** </pre></code>
   ### Design and Implementation
  
-  - workflow
+  ## workflow
   https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/Twitter_image.png    
-  - Libraries
-  >Using bufferReader and bufferWriter to dual with the input data.Also try to use Lambda and Stream API to process the input data stream.
+ .
   
 
-  ### Enhancements and Issues
-  >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
+ 
 
  ## Grep
   ### Introduction 
