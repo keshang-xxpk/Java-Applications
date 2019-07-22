@@ -16,23 +16,23 @@ mermaid
  # Summary
  ### This Java apps contains three independent applications
  
- [Twitter](#Twitter)  
- &ensp;&ensp; [Introduction](#Introdection)  
- &ensp;&ensp; [Usage](#Usage)  
- &ensp;[&ensp;Workflow](#Workflow)  
- [Grep](#Grep)  
- &ensp;&ensp;[Introduction](#Introdection)   
- &ensp;&ensp;[Usage](#Usage)   
- &ensp;&ensp;[workflow](#Workflow)   
- [JDBC](#JDBC)   
- &ensp;&ensp;[Introduction](#Introdection)    
- &ensp;&ensp;[Usage](#Usage)    
- &ensp;&ensp;[Design and Implementation](#Design and Implementation)     
+ [1.Twitter](#1.Twitter)  
+ &ensp;&ensp; [1.1Introduction](#1.1Introdection)  
+ &ensp;&ensp; [1.2Usage](#1.2Usage)  
+ &ensp;&ensp;[1.3Workflow](#1.3Workflow)  
+ [Grep](#2.Grep)  
+ &ensp;&ensp;[2.1Introduction](#2.1Introdection)   
+ &ensp;&ensp;[2.2Usage](#2.2Usage)   
+ &ensp;&ensp;[2.3workflow](#2.3Workflow)   
+ [JDBC](#3.JDBC)   
+ &ensp;&ensp;[3.1Introduction](#3.1Introdection)    
+ &ensp;&ensp;[3.2Usage](#3.2Usage)    
+ &ensp;&ensp;[3.3Design and Implementation](#3.3Design and Implementation)     
  
-   ## Twitter
-  ### Introduction 
+   ## 1.Twitter
+  ### 1.1Introduction 
   - this java application interacts with the Twitter API in order to view tweets ,and allow user to do the simple CRUD operations with the user's account. 
-  ### Usage
+  ### 1.2Usage
   #### Get
   -Discription:
   <pre>Look up a tweet by ID and print the tweet object inJSON format.Show user specified [fields] in the JSON document.Show user specified [fields] in the JSON document.</pre>
@@ -51,17 +51,17 @@ mermaid
  <pre><code>TwitterCLI delete **tweet_ids>** </pre></code>
   ### Design and Implementation
  
-  ## workflow
+  ## 1.3workflow
   https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/Twitter_image.png    
  .
   
 
  
 
- ## Grep
-  ### Introduction 
+ ## 2.Grep
+  ### 2.1Introduction 
   - Implement a simple grep app in Java. The app searches for a text pattern recursively in a given directory, and output matched lines to a file. 
-  ### Usage
+  ### 2.2Usage
   - Three arguments:regex,rootpath,outfile.
   >regex - a special text string for describing a search pattern
   >rootPath - root directory path
@@ -73,7 +73,7 @@ mermaid
 >
 >It searches all files in ~/dev/jrvs/bootcamp/linux_sql directory, and output lines contain data keyword to the output file
  /tmp/grep.out
-  ### Design and Implementation
+  ### 2.3Design and Implementation
  
   - Pseudo code and workflow
   <pre><code> 
@@ -91,10 +91,10 @@ writeToFile(matchedLines)</code></pre>
   ### Enhancements and Issues
   >Build a interface **JavaGrep** and implements it by  **JavaGrepImp**.
   
-  ## JDBC
-  ### Introduction 
+  ## 3.JDBC
+  ### 3.1Introduction 
   - Implement a simple grep app in Java. The app searches for a text pattern recursively in a given directory, and output matched lines to a file. 
-  ### Usage
+  ### 3.2Usage
   - Three arguments:regex,rootpath,outfile.
   >regex - a special text string for describing a search pattern
   >rootPath - root directory path
@@ -106,7 +106,7 @@ writeToFile(matchedLines)</code></pre>
 >
 >It searches all files in ~/dev/jrvs/bootcamp/linux_sql directory, and output lines contain data keyword to the output file
  /tmp/grep.out
-  ### Design and Implementation
+  ### 3.3Design and Implementation
  
   - Pseudo code and workflow
   <pre><code> 
