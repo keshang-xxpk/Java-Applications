@@ -40,8 +40,8 @@
   ### Design and Implementation
  
   ### workflow
-  https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/Twitter_image.png    
- .
+     
+ ![Alt text]( https://github.com/keshang-xxpk/Java-Applications/blob/master/IMAGE/Twitter_image.png )
   
 
  
